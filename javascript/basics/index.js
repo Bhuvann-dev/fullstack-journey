@@ -40,7 +40,7 @@ if(marks >= 75)
 }else{
     console.log("Fail");
 }   
-
+// Lesson 4 loop 
 for (let i = 1; i<=5; i++) {
     console.log("Count:", i);
 }
@@ -59,3 +59,28 @@ while (count > 0) {
     console.log("Countdown:", count);
     count--;
 }
+
+// Lesson 5 (Functions)
+
+function greet(name) {
+    console.log("Hello", name);
+}
+
+greet("Bhuvan");
+greet("Developer");
+
+function add(x,y) {
+    return x + y;
+}
+
+let result = add(5,7);
+console.log("Result:", result);
+
+const multiply = (a, b) => {
+    return a * b;
+};
+
+console.log("multiply:", multiply(4, 6));
+
+const multiplyShort = (a, b) => a*b;
+console.log("Multiply short:", multiplyShort(3,5));
