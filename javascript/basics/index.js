@@ -40,3 +40,22 @@ if(marks >= 75)
 }else{
     console.log("Fail");
 }   
+
+for (let i = 1; i<=5; i++) {
+    console.log("Count:", i);
+}
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0){
+        console.log(i, "is even");
+    } else {
+        console.log(i, "is odd");
+    }
+}
+
+let count = 5;
+
+while (count > 0) {
+    console.log("Countdown:", count);
+    count--;
+}
