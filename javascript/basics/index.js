@@ -29,7 +29,7 @@ console.log(a / b);
 console.log(a % b);
 console.log((a + b) * c);
 
-let marks = 72;
+let marks = 20;
 
 if(marks >= 75)
     {console.log("Distinction");
@@ -39,4 +39,4 @@ if(marks >= 75)
     console.log("Pass");
 }else{
     console.log("Fail");
-}
+}   
