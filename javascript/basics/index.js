@@ -1,7 +1,7 @@
 console.log("JavaScript started");
 
 let name = "FrozenBull";
-const age = "24";
+const age = 24;
 let isLearning = true;
 let city;
 let score = null;
@@ -29,3 +29,14 @@ console.log(a / b);
 console.log(a % b);
 console.log((a + b) * c);
 
+let marks = 72;
+
+if(marks >= 75)
+    {console.log("Distinction");
+}else if (marks >= 60){
+    console.log("First class");
+}else if (marks >= 35){
+    console.log("Pass");
+}else{
+    console.log("Fail");
+}
