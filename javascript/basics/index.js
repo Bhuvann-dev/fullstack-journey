@@ -125,3 +125,19 @@ function printEvenNumbers(numbers) {
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 printEvenNumbers(nums);
 
+let users = [
+    { name: "Asha", age:22 },
+    { name: "Ravi", age:17 },
+    { name: "Meena", age:25 },
+    { name: "Kiran", age:16 }
+];
+
+function printAdults (userList) {
+    for (let i = 0; i < userList.length; i++){
+        if (userList[i].age >= 18) {
+            console.log(userList[i].name);
+        }
+    }
+}
+
+printAdults(users);
