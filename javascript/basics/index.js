@@ -70,7 +70,7 @@ greet("Bhuvan");
 greet("Developer");
 
 function add(x,y) {
-    return x + y;
+   return x + y;
 }
 
 let result = add(5,7);
@@ -84,3 +84,34 @@ console.log("multiply:", multiply(4, 6));
 
 const multiplyShort = (a, b) => a*b;
 console.log("Multiply short:", multiplyShort(3,5));
+
+
+
+let skills = ["HTML", "CSS", "Javascript", "React"];
+
+console.log(skills);
+console.log(skills.length);
+console.log(skills[0]);
+console.log(skills[skills.length - 1]);
+
+for (let i = 0; i < skills.length; i++) {
+    console.log("Skills:", skills[i]);
+}
+
+let user = {
+    name: "Bhuvan",
+    age: 23,
+    isLearning: true,
+    skills: skills
+};
+
+console.log(user.name);
+console.log(user.age);
+console.log(user.skills);
+
+
+for (let i = 0; i < user.skills.length; i++) {
+    console.log("user skills:", user.skills[i]);
+}
+
+
