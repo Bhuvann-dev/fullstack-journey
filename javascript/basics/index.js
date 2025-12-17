@@ -114,4 +114,14 @@ for (let i = 0; i < user.skills.length; i++) {
     console.log("user skills:", user.skills[i]);
 }
 
+function printEvenNumbers(numbers) {
+    for(let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0 ) {
+            console.log(numbers[i]);
+        }
+    }    
+}
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+printEvenNumbers(nums);
 
