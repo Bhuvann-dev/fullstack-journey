@@ -141,3 +141,22 @@ function printAdults (userList) {
 }
 
 printAdults(users);
+
+let userNames = users.map(function (user) {
+    return user.name;
+});
+
+console.log(userNames);
+
+let adults = users.filter(function (user){
+    return user.age >= 18;
+});
+
+console.log(adults);
+
+let totalAge = users.reduce(function (sum, user){
+    return sum + user.age;
+}, 0);
+
+console.log(totalAge);
+
