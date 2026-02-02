@@ -25,7 +25,7 @@
 - Express.js  
 
 **Database**
--SQL
+- SQL
 - MongoDB (learning)
 
 **Tools**
