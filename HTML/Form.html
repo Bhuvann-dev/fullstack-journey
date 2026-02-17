@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Tag</title>
+</head>
+<body>
+    <h2>Genral Captcha</h2>
+    <form action="">
+        <label for="Captcha">Enter Captcha: * <span style="color: red;">*</span></label> 
+        <input type="text" id="Captcha" name="Captcha" placeholder="Enter Captcha here" title="Enter Captcha in 30 secs" required><br>
+        <br>
+        <button type="submit">Submit</button>
+        &nbsp;
+        <input type="reset" value="Cancel">
+    </form>
+    <br>
+    <hr>
+    <form>
+        <label for="bhuvan">Enter your name:</label>
+        <input type="text" placeholder=" Write your name" title="Enter your full name" required name="Name" id="bhuvan"><br>
+    </form>
+<br>
+    <form method="get">
+        <label for="Email">Enter your email: </label>
+        <input type="email" name="Email" id="Email" title="Enter your email here" required placeholder=" Enter your email here"><br>
+        <label for="Password">Enter your Password</label><br><br>
+        <input type="password" id="Password" name="password" placeholder="Enter your Password" title="Type your password here" autocomplete="off"><br><br>
+        <label for="Mobile"></label>
+    </form>
+<br><br><br>
+    <form>
+        <h1>Select your gender:</h1>
+        <label>
+            <input type="checkbox" name="Subject" value="html">html:
+        </label>
+        <label>
+            <input type="checkbox" name="Subject" value="css">css:
+        </label>
+        <label>
+            <input type="checkbox" name="Subject" value="java">java:
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="male">male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">female
+        </label>
+        <br>
+        <button type="submit"> Submit</button>
+         <input type="reset" value="Cancel">
+    </form>
+    <form>
+        <h2>Upload your file</h2>
+        <label>
+            Upload your file: <input type="file" name="fileupload" accept=".jpg, .pdf, .png">
+        </label>
+        <br><br>
+        <label> Rate yourself in Html
+            <input type="range" min="0" max="100" name="range" value="1" >
+        </label>
+    </form>
+</body>
+</html>
