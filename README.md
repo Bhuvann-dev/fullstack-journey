@@ -1,24 +1,22 @@
+<h1 align="center">Hi 👋, I'm Bhuvan</h1>
+<h3 align="center">Aspiring Full Stack Developer | Building Real-World Projects</h3>
 
-# Full Stack Journey – Bhuvan N
+# 🎨 Frontend Learning Journey
 
-## Why I am doing this
-To get a job as a full stack developer
+This repository tracks my progress in frontend development.
 
-## My current level (be honest)
-- HTML: Beginner 
-- CSS: Beginner
-- JavaScript: Beginner 
-- React: Beginner
-- Backend: Beginner 
-- Git: Beginner
+I am learning how to build responsive, user-friendly, and interactive web interfaces.
 
-## My weaknesses
--Inconsistent daily practice
--Weak JavaScript fundamentals
--Poor problem decomposition
--Avoiding difficult topics
+---
 
-## My commitment
-I will study and build for 6 hours/day.
-I will do this for 6 months without quitting.
+## 📌 What This Repo Covers
 
+- HTML5
+- CSS3
+- Flexbox & Grid
+- Responsive Design
+- JavaScript (Core Concepts)
+- DOM Manipulation
+- Basic UI Projects
+
+---
